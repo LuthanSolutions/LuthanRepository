@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HousesAzureApp", "HousesAzureApp\HousesAzureApp.csproj", "{283AF0E8-AD91-46AD-AB6B-5627C42EFA5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{AE75E699-3712-44FF-B7DC-6332C5D46FA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{8798BAC6-A59B-447B-8E04-63EAA6687655}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{71D26980-6A28-4969-B7BA-8AC8B9C4CADD}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\HousesAzureApp.json = PublishScripts\Templates\HousesAzureApp.json
+		PublishScripts\Templates\HousesAzureApp.param.dev.json = PublishScripts\Templates\HousesAzureApp.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{283AF0E8-AD91-46AD-AB6B-5627C42EFA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283AF0E8-AD91-46AD-AB6B-5627C42EFA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283AF0E8-AD91-46AD-AB6B-5627C42EFA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283AF0E8-AD91-46AD-AB6B-5627C42EFA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8798BAC6-A59B-447B-8E04-63EAA6687655} = {AE75E699-3712-44FF-B7DC-6332C5D46FA9}
+		{71D26980-6A28-4969-B7BA-8AC8B9C4CADD} = {AE75E699-3712-44FF-B7DC-6332C5D46FA9}
+	EndGlobalSection
+EndGlobal
